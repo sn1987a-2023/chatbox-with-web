@@ -6,6 +6,11 @@
 conda create -n chat-with-web python=3.10
 ```
 
+### Activate virtual env
+```
+conda activate chat-with-web
+```
+
 ### Install required packages
 ```
 pip install -r requirements.txt
@@ -15,5 +20,4 @@ pip install -r requirements.txt
 
 ```
 streamlit run app.py
-
 ```
